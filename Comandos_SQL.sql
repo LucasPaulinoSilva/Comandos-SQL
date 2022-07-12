@@ -46,7 +46,7 @@ WHEN 'INSERIR VARIAVEL' = ' ' THEN NULL
 ELSE 'INSERIR VARIAVEL'
 END
 
--- Tratamento o que ignora erros apresentados:
+-- Tratamento que ignora erros apresentados:
 BEGIN TRY
 'INSERIR QUARY'
 END TRY
@@ -57,9 +57,3 @@ END CATCH
 % = Coringa (ignora tudo o que vem na sequência ou anteriormente)
 # = Utilizado para ignorar ponto final (.) quando existir no cabeçalho
 null = Adiciona valor nulo (Em branco) ao campo
-
-
-
-
-
-
