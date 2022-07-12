@@ -17,7 +17,7 @@ SELECT [NOME DA TABELA] SET [NOME DA COLUNA] = 'INSERIR O DADO'
 DELETE FROM [NOME DA TABELA]
 
 -- Apaga os dados da coluna especificada presentes na tabela:
-DELETEFROM [NOME DA TABELA] WHERE [NOME DA COLUNA]
+DELETE FROM [NOME DA TABELA] WHERE [NOME DA COLUNA]
 
 -- Traz uma procedures especificada:
 EXEC sp_helptext [NOME DA PROCEDURES]
