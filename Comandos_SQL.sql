@@ -1,3 +1,5 @@
+--**Comandos SQL focado em RPA**
+---------------------------------------------------------------------------------------------------------------------
 -- Comando para aplicar o SELECT em uma planilha Excel:
 Provider=Microsoft.ACE.OLEDB.12.0;Data Source='String caminho Excel';Extended Properties="Excel 12.0 Xml;HDR=Yes";
 
