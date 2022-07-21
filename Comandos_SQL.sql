@@ -13,7 +13,7 @@ SELECT * FROM [NOME DA TABELA]
 SELECT [NOME DA COLUNA] FROM [NOME DA TABELA]
 
 -- Substitui os dados da coluna de uma tabela:
-SELECT [NOME DA TABELA] SET [NOME DA COLUNA] = 'INSERIR O DADO'
+SELECT [NOME DA TABELA] SET [NOME DA COLUNA] = 'INSERIR O DADO' WHERE = 'INSERIR CONDIÇÃO'
 
 -- Apaga os dados presentes na tabela especificada:
 DELETE FROM [NOME DA TABELA]
