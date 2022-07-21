@@ -22,7 +22,7 @@ DELETE FROM [NOME DA TABELA] WHERE [NOME DA COLUNA]
 EXEC sp_helptext [NOME DA PROCEDURES]
 
 -- Seleciona o tanto de registros (linhas) que quiser trazer na consulta:
-SELECT TOP (QUANTIDADE DE LINHAS QUE QUR TRAZE) [NOME DA TABELA]
+SELECT TOP (QUANTIDADE DE LINHAS QUE QUER TRAZER) [NOME DA TABELA]
 
 -- Faz a inserção dos dados presentes na planilha Excel para as linhas das colunas da tabela:
 INSERT INTO [NOME DA TABELA] 
