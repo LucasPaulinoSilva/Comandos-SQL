@@ -15,6 +15,10 @@ SELECT [NOME DA COLUNA] FROM [NOME DA TABELA]
 -- Apaga os dados presentes na tabela especificada:
 DELETE FROM [NOME DA TABELA]
 
+-- Mostras as colunas sem dados repetidos, realizando um filtro e trazendo um elemento de cada:
+SELECT DISTINCT [NOME DA COLUNA1], [NOME DA COLUNA2], ...
+FROM [NOME DA TABELA];
+
 -- Apaga os dados da coluna especificada presentes na tabela:
 DELETE FROM [NOME DA TABELA] WHERE [NOME DA COLUNA]
 
